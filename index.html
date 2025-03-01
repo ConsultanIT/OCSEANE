@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://www.paypal.com https://www.paypalobjects.com https://i.pravatar.cc; script-src 'self' https://www.paypal.com 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://www.paypalobjects.com https://i.pravatar.cc data: https:; frame-src https://www.paypal.com;">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>ocseane.com - Nom de domaine premium</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg class="logo-waves" width="120" height="40" viewBox="0 0 120 40">
+                    <defs>
+                        <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#4F46E5"/>
+                            <stop offset="100%" style="stop-color:#06B6D4"/>
+                        </linearGradient>
+                    </defs>
+                    <path class="wave wave1" fill="url(#wave-gradient)" d="M0,20 Q30,5 60,20 Q90,35 120,20 V40 H0 Z" opacity="0.8"/>
+                    <path class="wave wave2" fill="url(#wave-gradient)" d="M0,25 Q30,10 60,25 Q90,40 120,25 V40 H0 Z" opacity="0.6"/>
+                    <path class="wave wave3" fill="url(#wave-gradient)" d="M0,30 Q30,15 60,30 Q90,45 120,30 V40 H0 Z" opacity="0.4"/>
+                </svg>
+                <div class="domain-text">
+                    <span class="letter">o</span>
+                    <span class="letter">c</span>
+                    <span class="letter">s</span>
+                    <span class="letter">e</span>
+                    <span class="letter">a</span>
+                    <span class="letter">n</span>
+                    <span class="letter">e</span>
+                    <span class="domain-extension">.com</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Caractéristiques</a>
+                <a href="#pricing">Prix</a>
+                <a href="#testimonials">Témoignages</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <h1>ocseane.com</h1>
+            <p class="subtitle">Un nom de domaine premium évoquant l'océan et l'élégance</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🌊</span>
+                    <h3>Anatomie du nom</h3>
+                    <p>"ocseane" : Une variation créative du mot "océan"<br>
+                    ".com" : L'extension la plus reconnue mondialement</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🎯</span>
+                    <h3>Potentiel commercial</h3>
+                    <p>Idéal pour :<br>
+                    - Tourisme maritime<br>
+                    - Produits aquatiques<br>
+                    - Marque lifestyle</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">💎</span>
+                    <h3>Avantages clés</h3>
+                    <p>- Court et mémorable<br>
+                    - Facile à prononcer<br>
+                    - Potentiel international</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <h2>Investissement</h2>
+            <div class="price-container">
+                <div class="price-card">
+                    <h3>Nom de domaine Premium</h3>
+                    <div class="price">6 500 $</div>
+                    <ul class="price-features">
+                        <li>✨ Transfert sécurisé</li>
+                        <li>🔒 Transaction garantie</li>
+                        <li>📝 Assistance juridique</li>
+                        <li>🌐 Support international</li>
+                    </ul>
+                    <button class="cta-button price-button">Réserver maintenant</button>
+                    <div id="paypal-button-container"></div>
+                </div>
+            </div>
+            <p class="price-note">* Prix incluant le transfert du nom de domaine et l'accompagnement</p>
+        </section>
+
+        <section id="features" class="features-section">
+            <h2>Caractéristiques du domaine</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🔍</span>
+                    <h3>SEO-friendly</h3>
+                    <p>- Nom court et distinctif<br>
+                    - Facile à retenir<br>
+                    - Fort potentiel de référencement</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🌐</span>
+                    <h3>Présence globale</h3>
+                    <p>- Extension .com universelle<br>
+                    - Reconnaissance internationale<br>
+                    - Adapté au marché mondial</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">⭐</span>
+                    <h3>Valeur premium</h3>
+                    <p>- Nom de marque potentiel<br>
+                    - Investissement durable<br>
+                    - Protection de marque possible</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2>Avis d'experts</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="https://i.pravatar.cc/150?img=1" alt="Marine Dubois" class="testimonial-image">
+                    <h3>Marine Dubois</h3>
+                    <p class="testimonial-role">Experte en noms de domaine</p>
+                    <p class="testimonial-text">"Un nom de domaine premium avec un excellent potentiel pour une marque liée à l'océan ou au bien-être."</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://i.pravatar.cc/150?img=2" alt="Pierre Martin" class="testimonial-image">
+                    <h3>Pierre Martin</h3>
+                    <p class="testimonial-role">Consultant en marketing digital</p>
+                    <p class="testimonial-text">"La combinaison du mot 'océan' stylisé avec l'extension .com offre un excellent potentiel de branding international."</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://i.pravatar.cc/150?img=5" alt="Sophie Laurent" class="testimonial-image">
+                    <h3>Sophie Laurent</h3>
+                    <p class="testimonial-role">Spécialiste SEO</p>
+                    <p class="testimonial-text">"Un nom de domaine court, mémorable et facile à prononcer - des atouts majeurs pour le référencement naturel."</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Intéressé par ce nom de domaine ?</h2>
+            <form id="contact-form" class="contact-form" novalidate>
+                <p class="form-intro">Contactez-nous pour plus d'informations sur l'acquisition de ocseane.com</p>
+                <div class="form-group">
+                    <label for="nom">Nom <span class="required">*</span></label>
+                    <input type="text" 
+                           id="nom" 
+                           name="nom" 
+                           required 
+                           minlength="2"
+                           placeholder="Votre nom"
+                           data-error="Le nom est obligatoire (minimum 2 caractères)">
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom <span class="required">*</span></label>
+                    <input type="text" 
+                           id="prenom" 
+                           name="prenom" 
+                           required 
+                           minlength="2"
+                           placeholder="Votre prénom"
+                           data-error="Le prénom est obligatoire (minimum 2 caractères)">
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" 
+                           id="email" 
+                           name="email" 
+                           required
+                           pattern="[a-zA-Z0-9._%+-]+@gmail\.com$"
+                           placeholder="Votre adresse Gmail"
+                           data-error="Une adresse Gmail valide est obligatoire">
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre projet <span class="required">*</span></label>
+                    <textarea id="message" 
+                            name="message" 
+                            required 
+                            minlength="10"
+                            placeholder="Décrivez brièvement votre projet et l'utilisation envisagée du nom de domaine"
+                            data-error="La description du projet est obligatoire (minimum 10 caractères)"></textarea>
+                    <div class="error-message"></div>
+                </div>
+                <p class="form-note"><span class="required">*</span> Champs obligatoires</p>
+                <button type="submit" class="submit-btn">Demander plus d'informations</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ocseane.com - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
